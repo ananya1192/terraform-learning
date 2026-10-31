@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Variables and secrets
+*.tfvars
+*.tfvars.json
+.env
+.aws/
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
